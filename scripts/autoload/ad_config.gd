@@ -43,15 +43,12 @@ const TEST_REWARDED_IOS: String        = "ca-app-pub-3940256099942544/1712485313
 # Ad Unit IDs — Production (replace before release)
 # ============================================================
 
-## *** AdMob Console → Apps → 2048 Puzzle (com.puzzle2048.game) ***
-## 1. admob.google.com → Add App → Android → com.puzzle2048.game
-## 2. Create ad units: Banner, Interstitial, Rewarded
-## 3. Paste IDs below and set USE_TEST_ADS = false
-const PROD_BANNER_ANDROID: String      = ""  ## admob.google.com → Ad units → Banner
+## Replace with production IDs before release, then set USE_TEST_ADS = false.
+const PROD_BANNER_ANDROID: String      = ""
 const PROD_BANNER_IOS: String          = ""
-const PROD_INTERSTITIAL_ANDROID: String = ""  ## admob.google.com → Ad units → Interstitial
+const PROD_INTERSTITIAL_ANDROID: String = ""
 const PROD_INTERSTITIAL_IOS: String    = ""
-const PROD_REWARDED_ANDROID: String    = ""  ## admob.google.com → Ad units → Rewarded
+const PROD_REWARDED_ANDROID: String    = ""
 const PROD_REWARDED_IOS: String        = ""
 
 
