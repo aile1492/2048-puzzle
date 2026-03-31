@@ -7,7 +7,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Android_%7C_Web-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-**[Play Web Demo](https://aile1492.github.io/2048-puzzle-web)** · **[Architecture Docs](docs/architecture/system-architecture.md)** · **[Game Design](design/gdd/game-concept.md)**
+**[Play Web Demo](https://aile1492.github.io/2048-puzzle-web)** · **[Portfolio (Notion)](https://www.notion.so/33413eca6587819398acf8a1a748d7cd)** · **[Architecture Docs](docs/architecture/system-architecture.md)** · **[Game Design](design/gdd/game-concept.md)**
 
 ---
 
