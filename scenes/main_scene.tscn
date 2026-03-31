@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://main_scene"]
+
+[ext_resource type="Script" path="res://scripts/ui/main_scene.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/screens/home_screen.tscn" id="2_home"]
+
+[node name="MainScene" type="Node"]
+script = ExtResource("1_main")
+
+[node name="TabLayer" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="HomeScreen" parent="TabLayer" instance=ExtResource("2_home")]
+
+[node name="PushLayer" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="PopupLayer" type="CanvasLayer" parent="."]
+layer = 20

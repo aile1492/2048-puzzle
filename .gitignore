@@ -1,0 +1,45 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+*.translation
+*.import
+
+# Android build
+android/build/
+android/*.keystore
+
+# iOS build
+ios/
+
+# Export
+*.apk
+*.aab
+*.ipa
+export_presets.cfg
+
+# Build outputs & config
+build/
+build_config/
+
+# Third-party plugins
+addons/
+
+# Agent config (not part of game source)
+.claude/
+
+# Production management (session logs, sprint data)
+production/
+
+# Empty directories
+themes/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+CLAUDE.md
